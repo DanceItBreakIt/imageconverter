@@ -13,7 +13,7 @@ layout = [  [sg.Push(), sg.Text(f"Convert Images To Different File Formats", pad
 
             # online it said PIL could support JPEG, PNG, BMP, BLP, DDS, EPS, GIF, ICNS, ICO, MSP, PCX, PNG, PPM, SGI, TGA, TIFF, WebP, and XBM, but it actually wont do all of them
 
-window = sg.Window('Image Converter', layout, icon='icon.ico') # sets up window
+window = sg.Window('Image Converter', layout, titlebar_icon="icon.ico") # sets up window
 
 while True: # runtime
     event, values = window.read()
