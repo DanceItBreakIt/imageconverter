@@ -15,3 +15,5 @@ accepts the following file extensions:
 - TGA
 - TIFF
 - WebP
+
+#### ***Only works on Windows***
